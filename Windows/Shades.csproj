@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>Shades</AssemblyName>
+    <RootNamespace>Shades</RootNamespace>
+    <Version>1.1.0</Version>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="fonts\Remained.ttf">
+      <LogicalName>Shades.fonts.Remained.ttf</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
