@@ -24,7 +24,7 @@ Each scene is composed of a grid of shapes drawn multiple times with decreasing 
 
 ## macOS
 
-**Install:** download the signed and notarized **Shades.saver.zip** from the [latest release](https://github.com/Amphore-Dev/Shades-macos-screensaver/releases/latest), unzip it and double-click **Shades.saver**, then select it in **System Settings → Screen Saver**. macOS 11.5+, Apple silicon and Intel. Click **Options…** to tune it.
+**Install:** download the signed and notarized **Shades.saver.zip** from the [latest release](https://github.com/Amphore-Dev/Shades-screensaver/releases/latest), unzip it and double-click **Shades.saver**, then select it in **System Settings → Screen Saver**. macOS 11.5+, Apple silicon and Intel. Click **Options…** to tune it.
 
 Want Kinogrida, Shades and Psykala mixed together? Get **amphore-saver** from [amphore-saver](https://github.com/Amphore-Dev/amphore-saver).
 
