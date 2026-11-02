@@ -24,42 +24,11 @@ Each scene is composed of a grid of shapes drawn multiple times with decreasing 
 
 ## macOS
 
-**Requirements:** macOS 11.5+, Xcode with macOS SDK
-
-### Project Structure
-
-```
-MacOS/
-├── Shades.xcodeproj
-└── Shades/
-    ├── ShadesView.swift            # ScreenSaverView engine
-    ├── types/                      # Data types (ShadeColor, ShadePoint, ShadeConfig…)
-    ├── constants/                  # Colors, filters, constants
-    ├── utils/                      # Math, color and config utilities
-    ├── shapes/                     # BaseShape + 5 shape implementations
-    └── Resources/fonts/
-        └── Remained.ttf            # Custom font
-```
-
-### Build from source
-
-```bash
-cd MacOS
-
-# Build release
-make
-
-# Build + install to ~/Library/Screen Savers/
-make install
-
-# Remove
-make remove
-
-# Clean build artifacts
-make clean
-```
-
-After `make install`, open **System Settings → Screen Saver** and select **Shades**.
+> **The macOS version now lives in [amphore-saver](https://github.com/Amphore-Dev/amphore-saver).**
+>
+> Download the signed and notarized **Shades.saver.zip** from the [latest release](https://github.com/Amphore-Dev/amphore-saver/releases/latest), or **amphore-saver.saver.zip** to get a random mix of Kinogrida, Shades and Psykala. It adds an options panel and 60 fps, and runs on macOS 11.5+ (Apple silicon and Intel).
+>
+> The `MacOS/` folder of this repository is no longer maintained.
 
 ---
 
